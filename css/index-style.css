@@ -4,14 +4,24 @@ body{
     margin-right: auto;
 }
 .Content-Container1{
-    height: 700px;
-    width: 100%;
+
+    width: auto;
     background-color: #F4EDE4   ;
-    position:relative;
+    display: grid;
+    place-items: center;
+    height: 60vh; /* Full viewport height */
 }
+
+.content1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .logo-image{
     pointer-events: none;
-    position: absolute;
+
     margin: 100px 120px;
     left: 280px;
     right: auto;
@@ -19,18 +29,18 @@ body{
     width: auto;
 }
 
-.fc1-image{
-    pointer-events: none;
-    left: auto;
-    right: 90px;
-    bottom: 0;
+.fc1-image {
     position: absolute;
-    height: auto;
-    max-width: 25%;
+    pointer-events: none;
+    right: 0;
+    height: 400px;
+    width: auto;
+    top: 8.6vh;
+
 }
 
 .main-desc{
-    position: absolute;
+    
   /* background-color: rgba(138, 138, 138, 0.249); */
     height: 30%;
     width: auto;
@@ -49,7 +59,7 @@ body{
    
 
 .sub-desc{
-    position: absolute;
+
     top: 0;
     bottom: auto;
     margin: 80px 20px;
@@ -63,13 +73,14 @@ body{
         font-family: 'Playfair Display', sans;
     }
 
+    
 
 
 .Content-Container2{
     height: 500px;
     width: 100%;
     background-color: #475B40; 
-    position: relative; 
+    height: 100vh;  
 }
 
 .main-desc2{
@@ -91,11 +102,14 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-
+    white-space: nowrap;
 }
 
     .sub-desc2 p{
+       
         font-size: 24px;
         text-align: center;
         color: #F4EDE4;
+        margin-left: auto;
+        margin-right: auto;
     }

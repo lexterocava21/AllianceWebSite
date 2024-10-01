@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    min-width: 70%;
+
+}
+
+.body img{
+    pointer-events: none;
+    user-select: none;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-rows: 1fr 1fr; 
+  margin: 0;
+}
+
+.container1{
+    
+    background-image: url("/images/bg1.png");
+    background-size: cover;
+    height: 630px;
+    z-index: 1;
+}
+.image-container{
+ 
+  height: 500px;
+  width: 20%;
+  margin: auto;
+
+  transform: translate(80px, 0px); /* horizontal alignment */
+}
+
+.fc1-image{
+    transform: translate(0px, 80px); /* vertical alignment*/
+
+    height:550px; 
+    /* transform: translate(-50%, -50%);
+     */ 
+}
+
+.image-container2{
+    
+    height: 200px;
+    width: 20%;
+    margin: auto;
+
+    transform: translate(-155px, 0px);   
+}
+
+.logo-image{
+    transform: translate(0px, -400px); 
+
+    height:200px; 
+    width: 200px;
+}
+
+
+
+
+.main-desc{
+    grid-template-rows: 1fr 1fr; 
+    margin: auto;
+    transform: translate(0px, -10px);
+}
+    .name{
+        
+        transform: translate(-180px, -450px); 
+        
+    }
+    .name h4{
+        margin-top: 1px;
+        font-size: 90px;
+        text-align: center;
+        color: #475B40;
+        font-family: 'Dancing Script', cursive;   
+    }
+
+    .title-name{
+        transform: translate(-180px, -620px); 
+        margin: auto;
+        text-align: center;
+       
+        width: 500px;
+        color: #475B40;
+        font-size: 23px;
+     
+        font-family: 'Playfair Display', sans;
+    }
+
+    .sub-desc {
+        transform: translate(-180px, -610px); 
+        width: 600px;
+        text-align: center;
+        font-size: 18px;
+        margin: auto;
+        color: #475B40;
+    }
+
+.container2{
+    z-index: 2;
+    background-color:  #475b40;
+    height: 300px   ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+    .container2 h5{
+        transform: translate(0px, 25px); 
+        margin: auto;
+        font-size: 50px;
+        color: #F4EDE4;
+        font-family: 'Playfair Display', sans;
+    }
+    .image-container3{
+        margin: auto;
+        transform: translate(-300px, 76px); 
+    }
+
+    .image-container4{
+        margin: auto;
+        transform: translate(300px, -40px); 
+    }
+
+    .logo-image2{
+        width: 400px;
+    }
+
+
